@@ -1,0 +1,46 @@
+.sticker{
+  display: inline;
+  opacity: 1;
+  display: flex;
+  width: auto;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.printed{
+  display: inline;
+  opacity: 1;
+  display: flex;
+  margin: 0 auto;
+  width: auto;
+  height: auto;
+  transition: .1s ease;
+  backface-visibility: hidden;
+}
+
+.img_S{
+  border-radius: 3%;
+}
+
+.img_3d{
+  border-radius: 3%;
+}
+
+body{
+  background-color: black;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+  height: 50%;
+}
+
+.container:hover .sticker {
+  opacity: 0.6;
+}
+
+.container:hover .printed {
+  opacity: 0.6;
+}
